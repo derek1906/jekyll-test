@@ -1,0 +1,12 @@
+baseurl: /jekyll-test/
+
+collections:
+  pages:
+    output: true
+    permalink: /my-pages/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
